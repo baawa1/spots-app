@@ -54,7 +54,7 @@ function App() {
                   <img
                     src={avatar}
                     alt="Profile picture of Bessie Coleman"
-                    className="md:w-[190px] w-full"
+                    className="md:w-[190px] w-full mb-3 md:mb-0"
                   />
 
                   <div className="flex flex-col justify-between">
@@ -62,7 +62,7 @@ function App() {
                       <h1 className="text-4xl font-medium">Bessie Coleman</h1>
                       <p>Civil Aviator</p>
                     </div>
-                    <button className="flex gap-2 items-center md:justify-normal justify-center mt-8">
+                    <button className="flex gap-2 items-center md:justify-normal justify-center mt-8 cursor-pointer">
                       <img src={editIcon} alt="Edit profile button" />
                       <span>Edit Profile</span>
                     </button>
